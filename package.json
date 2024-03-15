@@ -60,8 +60,8 @@
     "./shims/web.mjs"
   ],
   "imports": {
-    "openai": ".",
-    "openai/*": "./src/*"
+    "@get-wrecked/openai": ".",
+    "@get-wrecked/openai/*": "./src/*"
   },
   "exports": {
     "./_shims/auto/*": {
